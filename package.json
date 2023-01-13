@@ -2,11 +2,15 @@
   "name": "optica_opto_visao",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://johnnescorynga.github.io/optica_opto_visao/build",
   "type": "module",
   "scripts": {
+    "deploy": "npm run build && cd node_modules && cd .bin && gh-pages -d ../../build",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vite test",
+    "eject": "vite eject"
   },
   "dependencies": {
     "react": "^18.2.0",
