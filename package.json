@@ -2,7 +2,7 @@
   "name": "optica_opto_visao",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://johnnescorynga.github.io/optica_opto_visao/",
+  "homepage": "/optica_opto_visao/",
   "type": "module",
   "scripts": {
     "deploy": "npm run build && cd node_modules && cd .bin && gh-pages -d ../../build",
