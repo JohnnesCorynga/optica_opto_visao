@@ -5,14 +5,16 @@
   "homepage": "https://johnnescorynga.github.io/optica_opto_visao/",
   "type": "module",
   "scripts": {
-    "deploy": "npm run build && cd node_modules && cd .bin && gh-pages -d ../../dist",
-    "dev": "vite",
+    "deploy": "npm run build && cd node_modules && cd .bin && gh-pages -d ../../build",
+    "start": "vite start",
     "build": "vite build",
-    "preview": "vite preview",
     "test": "vite test",
-    "eject": "vite eject"
+    "eject": "vite eject",
+    "dev": "vite",
+    "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
